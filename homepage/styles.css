@@ -1,0 +1,168 @@
+body{    
+    font-family: Arial, Helvetica, sans-serif;
+    background:url(images/websitebg.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color:gainsboro;
+}
+a {
+    color:inherit;
+}
+#daynight {
+    background: transparent;
+    color: inherit;
+    border: none;
+}
+#daynight:hover{
+    background: gray;
+}
+
+a:hover, a:focus{
+    text-decoration: none;
+    color:#2e5cb8; transition: 0.2s;
+}
+
+#header-wrapper {
+    padding: 3em 20px 20px 20px;			
+    text-align: center;
+}
+
+
+h1{
+    margin-left: 70px;
+    margin-top: 10px;
+  }
+
+#nav{
+    font-family: "Lucida Console", Courier, monospace;
+}
+#nav > ul > li {
+	display: inline-block;
+	margin-left: 1em;
+}
+
+.icon {padding: 0; margin: 0; text-align:center;}
+
+#dropdown > ul {
+    display: none;
+    position: absolute;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+#dropdown:hover > ul {display: block;}
+#navbar{padding-right: 50px;}
+#nav {
+    font-size: 16px;
+    border: none;
+    margin-right: 20px;
+}
+.aboutme img{
+    width:250px;
+}
+#intro {
+    background-color: rgba(.5,0.5,.5,.4);
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.image-wrapper {
+    padding-top: 50px;
+    text-align: center;
+}
+
+p {text-indent: 20px;}
+
+#footer p, #footer i {
+    font-size: 15px;
+    padding: 0;
+    margin: 0;
+}
+#footer {
+/*    height:50px;*/
+    text-align: center;
+    position: relative;
+    bottom: 0;
+    padding-top: 100px;
+    width: 100%
+}
+
+#intro h2{
+    text-align: center;
+}
+.books a img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+}
+.books {
+    padding: 20px;
+    text-align: center;
+}
+.feedback input{
+    width: 200px;
+    height: 30px;
+    border-radius: 5px;
+}
+.feedback textarea {
+    width: 300px;
+    height: 100px;
+    border-radius: 10px;
+    border-color: gainsboro;
+}
+
+.feedback button {
+    border-radius: 5px;
+    background-color: transparent;
+    color: gainsboro;
+    font-size: 20px
+}
+
+.feedback button:hover {
+    color:#2e5cb8; transition: 0.2s;
+    border-color: #2e5cb8;
+}
+.google input{
+    width: 220px;
+    height: 30px;
+}
+.google {
+    padding-bottom: 10px;
+}
+.feform {
+    padding: 15px;
+}
+
+
+.reslink {
+    padding-left: 20px;
+}
+.reslink li{
+    font-size: 20px;
+}
+.reslink p{
+    font-size: 16px;
+}
+
+.code-projs a img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+}
+.code-projs {
+    padding: 20px;
+    text-align: center;
+    height:400px;
+    padding-top: 60px;
+}
+.codes {
+    text-align: center;
+}
+#reprj img, #reprj2 img, #reprj3 img{
+    width: 300px;
+}
+.reviews h5{
+    text-align: center;
+}
